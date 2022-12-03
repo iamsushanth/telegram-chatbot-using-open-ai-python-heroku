@@ -5,7 +5,7 @@ import logging, os
 PORT = int(os.environ.get('PORT', '8443'))
 
 with open('token.txt', 'r') as f:
-    TOKEN = str(f.read())
+    TOKEN = '5615250115:AAEXt1wfGd2sn9sjJW7TXbbWEF5GE1HCOS0'
 
 session = {}
 
